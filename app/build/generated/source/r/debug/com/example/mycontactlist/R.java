@@ -11,8 +11,14 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        public static final int navbar_background=0x7f040000;
-        public static final int toolbar_background=0x7f040001;
+        public static final int blue=0x7f040000;
+        public static final int darkYellow=0x7f040001;
+        public static final int navbar_background=0x7f040002;
+        public static final int orange=0x7f040003;
+        public static final int red=0x7f040004;
+        public static final int shadow=0x7f040005;
+        public static final int toolbar_background=0x7f040006;
+        public static final int yellow=0x7f040007;
     }
     public static final class dimen {
         public static final int activity_horizontal_margin=0x7f050000;
@@ -22,8 +28,10 @@ public final class R {
         public static final int appicon=0x7f020000;
         public static final int contactlisticon=0x7f020001;
         public static final int mapicon=0x7f020002;
-        public static final int photoiconsmall=0x7f020003;
-        public static final int settingsicon=0x7f020004;
+        public static final int myshape=0x7f020003;
+        public static final int photoiconsmall=0x7f020004;
+        public static final int rectangle=0x7f020005;
+        public static final int settingsicon=0x7f020006;
     }
     public static final class id {
         public static final int action_settings=0x7f09001d;
@@ -80,16 +88,15 @@ public final class R {
     }
     public static final class style {
         /** 
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
+         API specific
         
  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f070000;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f070001;
+        /** example for replacing lines
+         */
+        public static final int BoldandBasic=0x7f070002;
     }
 }

@@ -17,7 +17,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/navbar_background" >
+        android:background="@color/yellow" >
 
         <ImageButton
             android:id="@+id/imageButtonList"
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@color/toolbar_background" >
+        android:background="@color/yellow" >
 
         <ToggleButton
             android:id="@+id/toggleButtonEdit"
@@ -98,14 +98,13 @@
 
             <EditText
                 android:id="@+id/editName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="10dp"
                 android:layout_below="@+id/textContact"
                 android:ems="14"
                 android:imeOptions="actionNext"
-                android:inputType="textCapWords" >
+                android:inputType="textCapWords"
+                style="@style/AppBaseTheme" >
 
             </EditText>
 
@@ -129,7 +128,10 @@
                 android:layout_below="@+id/textAddress"
                 android:ems="14"
                 android:imeOptions="actionNext"
-                android:inputType="textCapWords" >
+                android:inputType="textCapWords"
+                style="@style/BoldandBasic" >
+               <!-- can also use  android:background="@drawable/myshape"> -->
+
 
             </EditText>
             
@@ -143,7 +145,8 @@
                 android:ems="8"
                 android:imeOptions="actionNext"
                 android:nextFocusDown="@+id/editState"
-                android:inputType="textCapWords" >
+                android:inputType="textCapWords"
+                android:background="@color/blue" >
 
             </EditText>
             
@@ -157,7 +160,8 @@
                 android:maxLength="2"
                 android:imeOptions="actionNext"
                 android:nextFocusDown="@+id/editZipcode"
-                android:inputType="textCapCharacters" >
+                android:inputType="textCapCharacters"
+                android:background="@color/blue" >
 
             </EditText>
             
@@ -171,9 +175,11 @@
                 android:maxLength="5"
                 android:imeOptions="actionNext"
                 android:nextFocusDown="@+id/editHome"
-                android:inputType="numberSigned" >
+                android:inputType="numberSigned"
+                android:background="@color/blue">
 
-            </EditText>
+
+        </EditText>
 
            <TextView
                 android:id="@+id/textHome"
@@ -197,7 +203,8 @@
                 android:maxLength="14"
                 android:ems="7"
                 android:nextFocusDown="@+id/editCell"
-                android:inputType="textCapWords" >
+                android:inputType="textCapWords"
+                android:background="@color/blue" >
 
             </EditText>
             
@@ -221,7 +228,8 @@
                 android:ems="7"
                 android:imeOptions="actionNext"
                 android:nextFocusDown="@+id/editEMail"
-                android:inputType="textCapWords" >
+                android:inputType="textCapWords"
+                android:background="@color/blue" >
 
             </EditText>
             
@@ -244,7 +252,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_below="@+id/textEMail"
                 android:ems="13"
-                android:inputType="textEmailAddress" >
+                android:inputType="textEmailAddress"
+                android:background="@color/blue" >
 
             </EditText>
             
@@ -269,7 +278,8 @@
                 android:layout_marginLeft="10dp"
                 android:paddingBottom="25dp"
                 android:text="01/01/1970"
-                android:textAppearance="?android:attr/textAppearanceSmall" />
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@color/blue" />
 
            <Button
                android:id="@+id/btnBirthday"

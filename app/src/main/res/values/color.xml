@@ -2,5 +2,10 @@
 <resources>
     <color name="navbar_background">#1a1a48</color>
     <color name="toolbar_background">#bebebe</color>
-    
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#ff1012e5</color>
+    <color name="orange">#FFFFBB33</color>
+    <color name="darkYellow">#ffffe407</color>
+    <color name="red">#FF00</color>
+    <color name="shadow">#BB000000</color>
 </resources>
